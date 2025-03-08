@@ -347,7 +347,7 @@ const App = () => {
       navigate("/login");
     }
   }, [isAuthenticated, navigate]);
-  
+
   return (
     <div className="flex">
       {isAuthenticated ? (
@@ -372,16 +372,11 @@ const App = () => {
           </div>
         </>
       ) : (
-        // <div className="flex justify-center items-center min-h-screen w-full bg-gray-200">
         <Routes>
           <Route path="/login" element={<Login />} />
           <Route path="*" element={<Navigate to="/login" />} />
         </Routes>
-      // </div>
-        // <Routes>
-        //   <Route path="/login" element={<Login />} />
-        //   <Route path="*" element={<Navigate to="/login" />} />
-        // </Routes>
+     
       )}
     </div>
   );
