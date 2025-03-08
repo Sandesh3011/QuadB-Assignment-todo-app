@@ -33,7 +33,7 @@ function Todo() {
   };
  const handleLogout = () => {
     localStorage.removeItem("isAuthenticated"); 
-    window.location.href = "/login"; 
+    navigate("/login");
   };
 
   return (

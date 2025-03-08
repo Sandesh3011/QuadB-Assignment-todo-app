@@ -105,10 +105,10 @@ function Completed() {
 
   const handleLogout = () => {
     localStorage.removeItem("isAuthenticated"); 
-    window.location.href = "/login"; 
+    navigate("/login");
   };
   console.log("API Key:", import.meta.env.VITE_WEATHER_API_KEY);
-  
+
   return (
     <div>
       <div className="flex flex-col sm:flex-row justify-between">

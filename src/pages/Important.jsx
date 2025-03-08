@@ -36,7 +36,8 @@ function Important() {
 
   const handleLogout = () => {
     localStorage.removeItem("isAuthenticated"); 
-    window.location.href = "/login"; 
+   // window.location.href = "/login"; 
+   navigate("/login");
   };
 
   return (
