@@ -55,3 +55,22 @@ To run the application locally, follow these steps:
 ## Deployment
 This application is deployed using Vercel Pages & Vite as a build tool.
 
+## Screenshots
+
+### 1. Login Page
+![Login Page](assets/Login.png)
+
+### 2. Task Dashboard
+![Home Page](assets/HomePage.png)
+
+### 3. Add Task
+![Add Task](assets/AddTask.png)
+
+### 4. Task List
+![Task List](assets/TaskAdded.png)
+
+### 5. Important Task 
+![Important Task](assets/ImpTasks.png)
+
+### 6. Completed Tasks
+![Completed Tasks](assets/CompletedTasks.png)
