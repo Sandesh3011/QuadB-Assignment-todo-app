@@ -1,18 +1,21 @@
 # React To-Do Application
 
-This is a simple To-Do application built using ReactJS and Redux. The application allows users to add, view, update, and delete tasks. It also provides functionality to mark tasks as completed or important.
+This is a To-Do application built using ReactJS and Redux with Vite as the build tool. It allows users to add, view, update, and delete tasks while also providing options to mark tasks as completed, important, and set task priority. Additionally, it displays the weather for the selected location to help users plan tasks accordingly.
 
 ## Features
 
-- Add new tasks with title, deadline, mark as completed, and mark as important.
-- View all tasks in a card format.
+- Add New Tasks – Enter a title, set a deadline, mark tasks as completed or important, and assign a priority level.
+- View Tasks – Display all tasks in a structured card format.
 - Update tasks including modifying title, deadline, completion status, and importance.
 - Delete tasks from the list.
 - Filter tasks by completed, important, and to-do (not completed) statuses.
+- Set Task Priority – Assign priority levels (Low, Medium, High) to better organize tasks.
+- Weather Display – Shows the current weather for the selected location, helping users schedule tasks based on conditions.
 
 ## Technologies Used
 
 - ReactJS: Frontend library for building user interfaces.
+- Vite – Fast build tool for modern frontend development.
 - Redux: State management library for managing application state.
 - React Router: Declarative routing for React applications.
 - Tailwind CSS: Utility-first CSS framework for styling the application.
@@ -21,33 +24,35 @@ This is a simple To-Do application built using ReactJS and Redux. The applicatio
 
 ## Getting Started
 
+### Prerequisites
+Ensure you have Node.js installed.
+
 To run the application locally, follow these steps:
 
 1. Clone this repository to your local machine.
+   ```
+   git clone https://github.com/Sandesh3011/QuadB-Assignment-todo-app.git
+
+   ```
 2. Navigate to the project directory.
 3. Install dependencies using npm or yarn:
    ```
    npm install
    ```
-   or
-   ```
-   yarn install
-   ```
 4. Run the development server:
    ```
-   npm start
+   npm run dev
    ```
-   or
-   ```
-   yarn start
-   ```
-5. Open your web browser and navigate to http://localhost:3000 to view the application.
+5. Open your browser and navigate to http://localhost:5173 (Vite's default port).
 
 ## Usage
 
 - Use the sidebar to navigate between different sections of the application.
 - Add new tasks by filling out the form in the "ToDo" section and clicking the "Add Task" button.
-- View all tasks in the "Tasks" section, where you can see task details, mark tasks as completed or important, update tasks, or delete tasks.
+- View all tasks in the "Tasks" section,
+- Mark tasks as completed or important
+- Edit task details, including priority level
+- Delete tasks
 - Filter tasks by completed, important, or to-do statuses using the sidebar links.
 - Edit tasks by clicking the "Edit" button on each task card, making changes in the modal, and clicking "Save Changes."
 - Delete tasks by clicking the "Delete" button on each task card.
